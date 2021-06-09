@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="sample.css">
+        <script>
+            function show() {
+                document.getElementById('rop').style.backgroundColor='green'
+                document.getElementById('write').innerHTML='CORRECT ANSWER IS OPTION B'
+            }
+        </script>
+    </head>
+    <body class="background">
+        <div id="box1">
+            <h1> GENERAL </h1>
+            <h1> TECHNO-BATTLE </h1>
+            <p><span id="ques">Q: </span> Brass gets discoloured in air because of the presence of which of the following gases in air?                                         </p>
+            <button><a> A:    Oxygen                                          </a></button>
+            <button id="rop"><a>   B:                 Hydrogen sulphide                     </a></button>
+            <button><a>    C:             Carbon dioxide                         </a></button>
+            <button><a>     D:                   Nitrogen                     </a></button><br>
+            <div id="dec">
+            <span id="write"></span>
+             </div>
+             <br><br><br><br>
+            <button id="sub" onclick="show()">SHOW ANSWER</button>
+            <button id="next"><a href="gk_q4.html">NEXT QUESTION</a></button>
+            <button id="next"><a href="prototype_1.html">HOME</a></button>
+        </div>
+    </body>
+</html>

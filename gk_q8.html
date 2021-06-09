@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="sample.css">
+        <script>
+            function show() {
+                document.getElementById('rop').style.backgroundColor='green'
+                document.getElementById('write').innerHTML='CORRECT ANSWER IS OPTION C'
+            }
+        </script>
+    </head>
+    <body class="background">
+        <div id="box1">
+            <h1> GENERAL </h1>
+            <h1> TECHNO-BATTLE </h1>
+            <p><span id="ques">Q: </span> Isotopes are separated by                                          </p>
+            <button><a> A:      crystallisation                                        </a></button>
+            <button><a>   B:        sublimation                              </a></button>
+            <button id="rop"><a>    C:           distillation                           </a></button>
+            <button><a>     D:             filtration                           </a></button><br>
+            <div id="dec">
+            <span id="write"></span>
+             </div>
+             <br><br><br><br>
+            <button id="sub" onclick="show()">SHOW ANSWER</button>
+            <button id="next"><a href="gk_q9.html">NEXT QUESTION</a></button>
+            <button id="next"><a href="prototype_1.html">HOME</a></button>
+        </div>
+    </body>
+</html>

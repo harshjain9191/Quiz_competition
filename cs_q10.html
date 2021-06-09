@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="sample.css">
+        <script>
+            function show() {
+                document.getElementById('rop').style.backgroundColor='green'
+                document.getElementById('write').innerHTML='CORRECT ANSWER IS OPTION C'
+            }
+        </script>
+    </head>
+    <body class="background">
+        <div id="box1">
+            <h1> COMPUTER SCIENCE </h1>
+            <h1> TECHNO-BATTLE </h1>
+            <p><span id="ques">Q: </span> A modem that is attached to the telephone system by jamming the phone's handset into two flexible receptacles in the coupler?                                        </p>
+            <button><a>      A:   gateway                                      </a></button>
+            <button><a>        B:   bridge                              </a></button>
+            <button id="rop"><a> C:         acoustic coupler                                </a></button>
+            <button><a>        D:  time-division multiplexer                                   </a></button><br>
+            <div id="dec">
+            <span id="write"></span>
+             </div>
+             <br><br><br><br>
+            <button id="sub" onclick="show()">SHOW ANSWER</button>
+            <button id="next"><a href="cs_q11.html">NEXT QUESTION</a></button>
+            <button id="next"><a href="prototype_1.html">HOME</a></button>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="sample.css">
+        <script>
+            function show() {
+                document.getElementById('rop').style.backgroundColor='green'
+                document.getElementById('write').innerHTML="CORRECT ANSWER IS OPTION D"
+            }
+        </script>
+    </head>
+    <body class="background">
+        <div id="box1">
+            <h1> ELECTRICALS SECTION </h1>
+            <h1> TECHNO-BATTLE </h1>
+            <p><span id="ques">Q: </span>In gases the flow of current is due to              ?</p>
+            <button><a>A: Electrons only            </a></button>
+            <button><a>B: Positive ions only            </a></button>
+            <button><a>C: Electrons and positive ions              </a></button>
+            <button id="rop"><a>D: Electrons, positive ions and negative ions                </a></button><br>
+            <div id="dec">
+                <span id="write"></span>
+                 </div>
+                 <br><br><br><br>
+
+            <button id="sub" onclick="show()">SHOW ANSWER</button>
+            <button onclick="" id="next"><a href="ee_q3.html">NEXT QUESTION</a></button>
+            <button onclick="" id="next"><a href="prototype_1.html">HOME</a></button>
+        </div>
+    </body>
+</html>

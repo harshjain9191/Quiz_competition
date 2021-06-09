@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="sample.css">
+        <script>
+            function show() {
+                document.getElementById('rop').style.backgroundColor='green'
+                document.getElementById('write').innerHTML='CORRECT ANSWER IS OPTION A'
+            }
+        </script>
+    </head>
+    <body class="background">
+        <div id="box1">
+            <h1> COMPUTER SCIENCE </h1>
+            <h1> TECHNO-BATTLE </h1>
+            <p><span id="ques">Q: </span> In which of the following situations does led to BLUE SCREEN OF DEATH in windows OS?                                         </p>
+            <button id="rop"><a>   A:   malfunctioning hardware                                    </a></button>
+            <button><a>              B: over CPU<br> usage                          </a></button>
+            <button><a>    C:    preventing a malware to be executed                                  </a></button>
+            <button><a>      D:     restarting some device drivers                                 </a></button><br>
+            <div id="dec">
+            <span id="write"></span>
+             </div>
+             <br><br><br><br>
+            <button id="sub" onclick="show()">SHOW ANSWER</button>
+            <button id="next"><a href="prototype_1.html">HOME</a></button>
+        </div>
+    </body>
+</html>

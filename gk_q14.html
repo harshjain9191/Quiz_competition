@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="sample.css">
+        <script>
+            function show() {
+                document.getElementById('rop').style.backgroundColor='green'
+                document.getElementById('write').innerHTML='CORRECT ANSWER IS OPTION A'
+            }
+        </script>
+    </head>
+    <body class="background">
+        <div id="box1">
+            <h1> GENERAL </h1>
+            <h1> TECHNO-BATTLE </h1>
+            <p><span id="ques">Q: </span> What is HTTP 404?                                         </p>
+            <button id="rop"><a> A:     An error message indicating server not found                                         </a></button>
+            <button><a>   B:            An error message indicating moved permanently                           </a></button>
+            <button><a>    C:            An error message indicating forbidden                           </a></button>
+            <button><a>     D:               An error message indicating server found                          </a></button><br>
+            <div id="dec">
+            <span id="write"></span>
+             </div>
+             <br><br><br><br>
+            <button id="sub" onclick="show()">SHOW ANSWER</button>
+            <button id="next"><a href="gk_q15.html">NEXT QUESTION</a></button>
+            <button id="next"><a href="prototype_1.html">HOME</a></button>
+        </div>
+    </body>
+</html>

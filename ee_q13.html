@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="sample.css">
+        <script>
+            function show() {
+                document.getElementById('rop').style.backgroundColor='green'
+                document.getElementById('write').innerHTML="CORRECT ANSWER IS OPTION C"
+            }
+        </script>
+    </head>
+    <body class="background">
+        <div id="box1">
+            <h1> ELECTRICALS SECTION </h1>
+            <h1> TECHNO-BATTLE </h1>
+            <p><span id="ques">Q: </span>Form Factor is the ratio of              ?</p>
+            <button><a>A: Average value/r.m.s. value            </a></button>
+            <button><a>B: Average value/peak value            </a></button>
+            <button id="rop"><a>C: r.m.s. value/average value             </a></button>
+            <button><a>D: r.m.s. value/peak value               </a></button><br>
+            <div id="dec">
+                <span id="write"></span>
+                 </div>
+                 <br><br><br><br>
+
+            <button id="sub" onclick="show()">SHOW ANSWER</button>
+            <button onclick="" id="next"><a href="ee_q14.html">NEXT QUESTION</a></button>
+            <button onclick="" id="next"><a href="prototype_1.html">HOME</a></button>
+        </div>
+    </body>
+</html>

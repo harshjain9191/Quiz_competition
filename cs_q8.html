@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="sample.css">
+        <script>
+            function show() {
+                document.getElementById('rop').style.backgroundColor='green'
+                document.getElementById('write').innerHTML='CORRECT ANSWER IS OPTION A'
+            }
+        </script>
+    </head>
+    <body class="background">
+        <div id="box1">
+            <h1> COMPUTER SCIENCE </h1>
+            <h1> TECHNO-BATTLE </h1>
+            <p><span id="ques">Q: </span> Which method is of reading the characters & providing input to a computer?                          </p>
+            <button id="rop"><a>   A:   Optical character reader                                         </a></button>
+            <button><a>      B:  Punched paper tape                                 </a></button>
+            <button><a>       C: Card punch                                              </a></button>
+            <button><a>       D:  Magnetic ink character                                    </a></button><br>
+            <div id="dec">
+            <span id="write"></span>
+             </div>
+             <br><br><br><br>
+            <button id="sub" onclick="show()">SHOW ANSWER</button>
+            <button id="next"><a href="cs_q9.html">NEXT QUESTION</a></button>
+            <button id="next"><a href="prototype_1.html">HOME</a></button>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="sample.css">
+        <script>
+            function show() {
+                document.getElementById('rop').style.backgroundColor='green'
+                document.getElementById('write').innerHTML="CORRECT ANSWER IS OPTION D"
+            }
+        </script>
+    </head>
+    <body class="background">
+        <div id="box1">
+            <h1> ELECTRONICS </h1>
+            <h1> TECHNO-BATTLE </h1>
+            <p><span id="ques">Q: </span>A BJT is said to be operating in the saturation region if______?</p>
+            <button><a>A: Both the junctions are reverse biased              </a></button>
+            <button><a>B: Base-emitter junction is reverse & base-collector junction is forward biased             </a></button>
+            <button><a>C: Base-emitter junction is forward & base-collector junction is reverse biased                </a></button>
+            <button id="rop"><a>D: Both the junctions are forward biased               </a></button><br>
+            <div id="dec">
+                <span id="write"></span>
+                 </div>
+                 <br><br><br><br>
+
+            <button id="sub" onclick="show()">SHOW ANSWER</button>
+            <button onclick="" id="next"><a href="ec_q5.html">NEXT QUESTION</a></button>
+            <button onclick="" id="next"><a href="prototype_1.html">HOME</a></button>
+        </div>
+    </body>
+</html>

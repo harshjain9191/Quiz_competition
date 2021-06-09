@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="sample.css">
+        <script>
+            function show() {
+                document.getElementById('rop').style.backgroundColor='green'
+                document.getElementById('write').innerHTML="CORRECT ANSWER IS OPTION B"
+            }
+        </script>
+    </head>
+    <body class="background">
+        <div id="box1">
+            <h1> MECHANICAL SECTION </h1>
+            <h1> TECHNO-BATTLE </h1>
+            <p><span id="ques">Q: </span>Steel contains              ?</p>
+            <button><a>A: 80% or more iron            </a></button>
+            <button id="rop"><a>B: 50% or more iron            </a></button>
+            <button><a>C: Alloying elements like chromium, tungsten nickel and copper              </a></button>
+            <button><a>D: Elements like phosphorus, sulphur and silicon in varying quantities               </a></button><br>
+            <div id="dec">
+                <span id="write"></span>
+                 </div>
+                 <br><br><br><br>
+
+            <button id="sub" onclick="show()">SHOW ANSWER</button>
+            <button onclick="" id="next"><a href="mc_q11.html">NEXT QUESTION</a></button>
+            <button onclick="" id="next"><a href="prototype_1.html">HOME</a></button>
+        </div>
+    </body>
+</html>

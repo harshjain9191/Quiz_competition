@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="sample.css">
+        <script>
+            function show() {
+                document.getElementById('rop').style.backgroundColor='green'
+                document.getElementById('write').innerHTML="CORRECT ANSWER IS OPTION D"
+            }
+        </script>
+    </head>
+    <body class="background">
+        <div id="box1">
+            <h1> MECHANICAL SECTION </h1>
+            <h1> TECHNO-BATTLE </h1>
+            <p><span id="ques">Q: </span>The unit of temperature in S.I. units is             ?</p>
+            <button><a>A:  Centigrade            </a></button>
+            <button><a>B:  Celsius           </a></button>
+            <button><a>C: Fahrenheit              </a></button>
+            <button id="rop"><a>D: Kelvin               </a></button><br>
+            <div id="dec">
+                <span id="write"></span>
+                 </div>
+                 <br><br><br><br>
+
+            <button id="sub" onclick="show()">SHOW ANSWER</button>
+            <button onclick="" id="next"><a href="mc_q12.html">NEXT QUESTION</a></button>
+            <button onclick="" id="next"><a href="prototype_1.html">HOME</a></button>
+        </div>
+    </body>
+</html>

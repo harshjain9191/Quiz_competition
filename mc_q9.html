@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="sample.css">
+        <script>
+            function show() {
+                document.getElementById('rop').style.backgroundColor='green'
+                document.getElementById('write').innerHTML="CORRECT ANSWER IS OPTION D"
+            }
+        </script>
+    </head>
+    <body class="background">
+        <div id="box1">
+            <h1> MECHANICAL SECTION </h1>
+            <h1> TECHNO-BATTLE </h1>
+            <p><span id="ques">Q: </span>Which of the following metal is used for nuclear energy              ?</p>
+            <button><a>A: Uranium            </a></button>
+            <button><a>B: Thorium            </a></button>
+            <button><a>C: Niobium              </a></button>
+            <button id="rop"><a>D: All of these                </a></button><br>
+            <div id="dec">
+                <span id="write"></span>
+                 </div>
+                 <br><br><br><br>
+
+            <button id="sub" onclick="show()">SHOW ANSWER</button>
+            <button onclick="" id="next"><a href="mc_q10.html">NEXT QUESTION</a></button>
+            <button onclick="" id="next"><a href="prototype_1.html">HOME</a></button>
+        </div>
+    </body>
+</html>

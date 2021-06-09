@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="sample.css">
+        <script>
+            function show() {
+                document.getElementById('rop').style.backgroundColor='green'
+                document.getElementById('write').innerHTML="CORRECT ANSWER IS OPTION B"
+            }
+        </script>
+    </head>
+    <body class="background">
+        <div id="box1">
+            <h1> CIVIL SECTION </h1>
+            <h1> TECHNO-BATTLE </h1>
+            <p><span id="ques">Q: </span>Which of the following cements contains maximum percentage of dicalcium silicate              ?</p>
+            <button><a>A: Ordinary Portland cement            </a></button>
+            <button id="rop"><a>B: Low heat cement            </a></button>
+            <button><a>C: Rapid hardening cement              </a></button>
+            <button><a>D: Sulphate resisting cement               </a></button><br>
+            <div id="dec">
+                <span id="write"></span>
+                 </div>
+                 <br><br><br><br>
+
+            <button id="sub" onclick="show()">SHOW ANSWER</button>
+
+            <button onclick="" id="next"><a href="prototype_1.html">HOME</a></button>
+        </div>
+    </body>
+</html>
