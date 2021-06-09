@@ -1,0 +1,64 @@
+.bg {
+    background-image: linear-gradient(to right, black, rgb(51, 2, 66));
+    background-size: cover;
+    margin: 30px;
+    outline: 10px solid white;
+}
+#img {
+    display: flex;
+    float: left;  
+    width: 30%;
+}
+#jnct {
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+h1 {
+    font: bolder 60px Franklin Gothic;
+    color: rgb(91, 243, 77);
+    text-shadow: 10px 8px 10px rgb(30, 211, 243);
+    margin: 30px;
+    text-align: center;
+}
+h2 {
+    font: bolder 45px impact sans;
+    text-align: center;
+    text-shadow: 3px 3px 5px red;
+    color: rgb(77, 238, 250);
+}
+button {
+    float: left;
+    border: none;
+    backgrounD: none;
+    font: bold 30px lucida sans;
+    border-radius: 20px;
+    height: 100px;
+    margin: 30px;
+    box-shadow: 10px 10px 10px gray;
+}
+#round1 {
+    background-color: rgb(43, 43, 241);
+    width: 500px;
+}
+#round2 {
+    background-color: rgb(8, 158, 8);
+    width: 500px;
+}
+#round3 {
+    background-color: rgb(238, 45, 45);
+    width: 500px;
+}
+#tie1 {
+    background-color: rgb(235, 18, 206);
+    width: 300px;
+}
+#tie2 {
+    background-color: rgb(183, 219, 21);
+    width: 300px;
+}
+a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}

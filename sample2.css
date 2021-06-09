@@ -1,0 +1,68 @@
+.background {
+    background: linear-gradient(rgb(252, 252, 129) , rgb(95, 247, 95), rgb(10, 220, 248));
+    background-size: cover;
+}
+#box1 {
+    float: left;
+    margin: 20px 100px;
+    border: 5px solid white;
+    height: 690px;
+    width: 85%;
+}
+h1 {
+    font: bolder 40px lucida sans;
+    color: rgb(190, 13, 22);
+
+    text-decoration: underline;
+    text-align: center;
+    margin: 20px;
+}
+#ques {
+    font: bolder 30px Franklin;
+    text-decoration: underline;
+}
+p {
+
+    font: bolder 30px lucida sans;
+    top: -25;
+    left: 80;
+}
+button {
+    background-color: rgb(6, 179, 248);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    color: rgb(205, 240, 9);
+    font: bolder 18px Franklin Gothic;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    box-shadow: 5px 5px 8px grey;
+}
+#sub {
+
+    background-color: rgb(196, 24, 5);
+}
+#next {
+    margin-left: 280px;
+    background-color: rgb(94, 94, 255);
+    
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+A:active {
+    color: black;
+    text-decoration: none;
+}
+#dec {
+    display: inline;
+    background-color: yellow;
+    margin-left: 30px;
+    color: rgb(11, 121, 17);
+    font: bolder 30px arial;
+}
+button:focus {
+    border: 10px solid darkmagenta;
+}

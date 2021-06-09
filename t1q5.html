@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="sample2.css">
+        <script>
+            function show() {
+                document.getElementById('rop').style.backgroundColor='green'
+                document.getElementById('write').innerHTML="CORRECT ANSWER IS OPTION D"
+            }
+        </script>
+    </head>
+    <body class="background">
+        <div id="box1">
+            <h1> BRAIN TEASER </h1>
+            <h1> TEAM AGNI </h1>
+            <p><span id="ques">Q: 5</span> 
+                Which word does not belong with the others :               ?</p>
+            <button><a>A:    inches          </a></button>
+            <button><a>B:        feets      </a></button>
+            <button><a>C:     yards          </a></button>
+            <button id="rop"><a>D:            ounces     </a></button><br>
+            <div id="dec">
+                <span id="write"></span>
+                 </div>
+                 <br><br><br><br>
+
+            <button id="sub" onclick="show()">SHOW ANSWER</button>
+            <button onclick="" id="next"><a href="round1.html">HOME</a></button>
+        </div>
+    </body>
+</html>

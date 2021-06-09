@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="sample.css">
+        <script>
+            function show() {
+                document.getElementById('rop').style.backgroundColor='green'
+                document.getElementById('write').innerHTML='CORRECT ANSWER IS OPTION C'
+            }
+        </script>
+    </head>
+    <body class="background">
+        <div id="box1">
+            <h1> THE TIE BREAKER </h1>
+            <h1> QUESTION 1 </h1>
+            <p><span id="ques">Q: </span>  What is used to identify whether a data word has an odd or even number of I's ?                                         </p>
+            <button><a> A:        Signbit                                      </a></button>
+            <button><a>   B:           Zerobit                           </a></button>
+            <button id="rop"><a>    C:            Paritybit                          </a></button>
+            <button><a>     D:              Carry bit                          </a></button><br>
+            <div id="dec">
+            <span id="write"></span>
+             </div>
+             <br><br><br><br>
+            <button id="sub" onclick="show()">SHOW ANSWER</button>
+            <button id="next"><a href="tiebr2q2.html">NEXT QUESTION</a></button>
+            <button id="next"><a href="prototype_1.html">HOME</a></button>
+        </div>
+    </body>
+</html>
