@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="rapid.css">
+    <script>
+        function show1() {
+            document.getElementById('op1').style.backgroundColor = 'red';
+            document.getElementById('rop').style.backgroundColor = 'rgba(94, 245, 48, 0.87)';
+        }
+        function show2() {
+            document.getElementById('rop').style.backgroundColor = 'rgba(94, 245, 48, 0.87)';
+            document.getElementById('op2').style.backgroundColor = 'red';
+
+        }
+        function show3() {
+            document.getElementById('op3').style.backgroundColor = 'red';
+            document.getElementById('rop').style.backgroundColor = 'rgba(94, 245, 48, 0.87)';
+        }
+        function show4() {
+            document.getElementById('rop').style.backgroundColor = 'rgba(94, 245, 48, 0.87)';
+        }
+    </script>
+</head>
+
+<body class="background">
+    <div id="box1">
+        <h1> TEAM AGNI </h1>
+        <h1> RAPID FIRE </h1>
+        <p><i id="ques">Q: 3 </i>Which of the following is the newest element to be discovered and synthesised?</p>
+        <button onclick="show1()" id="op1"><a>A: Flerovium (114)       </a></button><br>
+        <button onclick="show2()" id="op2"><a>B: Ununpentium (115)        </a></button><br>
+        <button onclick="show3()" id="op3"><a>C: Livermorium (116)            </a></button><br><div id="ff"></div>
+        <button onclick="show4()" id="rop"><a>D: Ununseptium (117)      </a></button>
+
+        <button id="next"><a href="rapidta4.html">NEXT</a></button>
+        </div>
+    </div>
+</body>
+
+</html>
